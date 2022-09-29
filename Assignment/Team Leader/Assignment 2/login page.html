@@ -1,0 +1,48 @@
+4.Create a flask app with login page.
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer care</title>
+        
+        <style>
+            body{
+                font-family:'Times New Roman';
+                text-align: center;
+            
+            }
+            form{
+                background-color:gray;
+                max-width:500px;
+                padding:30px;
+                margin-top: 20%;
+                margin-left: 500px;
+                margin-right: 200px;
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <form action="/form_login" method="post">
+            <h1>Customer Care Registry Form</h1>
+            
+            <div class="form-control">
+                <label for="Email">Email:</label>
+                <input type="text"id="Email"placeholder="Enter your Email">
+
+            </div><br>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password"id="password"placeholder="Enter your password">
+            </div><br>
+
+            <button type="submit" value="submit">Submit</button>
+
+        </form>
+        <h1>{{info}}</h1>
+    </body>
+</html>
