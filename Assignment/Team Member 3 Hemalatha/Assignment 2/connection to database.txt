@@ -1,0 +1,9 @@
+3.Connect to database db2
+
+
+import ibm_db
+try:
+     ibm_db.connect ("DATABASE=bludb;HOSTNAME=fbd88901-ebdb-4a4f-a32e-9822b9fb237b.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=32731;SECURITY=SSL;UID=zhc67031;PWD=gYfjVWbNNVRl2Uio;", '', '')
+     print("dbs")
+except:
+      print("not")
