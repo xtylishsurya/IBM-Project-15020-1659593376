@@ -1,0 +1,11 @@
+https://s3.jp-tok.cloud-object-storage.appdomain.cloud/hema2022/bird image.jpg
+
+
+https://s3.jp-tok.cloud-object-storage.appdomain.cloud/hema2022/tree.jpg
+
+https://s3.jp-tok.cloud-object-storage.appdomain.cloud/hema2022/book.jpg
+
+https://s3.jp-tok.cloud-object-storage.appdomain.cloud/hema2022/flower.jpg
+
+
+https://s3.jp-tok.cloud-object-storage.appdomain.cloud/hema2022/fruits.jpg
